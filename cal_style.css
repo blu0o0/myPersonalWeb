@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: rgb(114, 115, 176); 
+  text-align: center;
+}
+
+button {
+  font-size: 14px;
+  padding: 8px 12px;
+  margin: 5px;
+  border: 2px outset rgb(36, 77, 149);
+  background: linear-gradient(to bottom, rgb(209, 213, 255), rgb(138, 162, 235));
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: linear-gradient(to bottom, rgb(152, 155, 196), rgba(83, 105, 173, 0.688));
+  color: white;
+}
+
+h2 {
+  color: rgb(216, 216, 255);
+  text-shadow: 1px 1px 0 #000;
+  margin-top: 20px;
+}
+
+input[type="number"] {
+  width: 200px;
+  padding: 10px;
+  margin: 5px;
+  border: 2px ridge rgb(114, 175, 245);
+  border-radius: 6px;
+  background: rgb(209, 213, 255);
+  outline: none;
+}
+
+button:not(:first-of-type) {
+  border: 2px outset rgb(36, 77, 149);
+}
+
+.result-box {
+  margin-top: 20px;
+  display: inline-block;
+  padding: 15px 25px;
+  border-radius: 10px;
+
+  background: linear-gradient(
+    to bottom,
+    rgb(209, 213, 255),
+    rgb(138, 162, 235)
+  );
+
+  border: 2px ridge rgb(114, 175, 245);
+  font-size: 18px;
+  color: #030303;
+}
+
+#result {
+  font-weight: bold;
+  color: rgb(32, 81, 130);
+}
+
+br {
+  margin-bottom: 10px;
+}
+button:first-of-type {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+
+  font-size: 12px;
+  padding: 4px 8px;
+}
