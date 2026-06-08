@@ -111,7 +111,7 @@ color: rgba(240, 80, 255, 0.599)}
     width: 20%;
     min-height: 50vh;
     margin-right: 1%;
-    border: 5px outset rgb(36, 77, 149);
+    border: 2px outset rgb(36, 77, 149);
 }
 .column.main{
     border: 2px ridge rgb(114, 175, 245);
